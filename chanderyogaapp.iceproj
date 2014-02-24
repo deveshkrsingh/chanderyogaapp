@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>42ebbd96-da6d-491f-b9a3-f9faf93cad96</ProjectGuid>
+    <ProjectTypeGuids>{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}</ProjectTypeGuids>
+    <AppIdentifier>com.telerik.chanderyogaapp</AppIdentifier>
+    <ProjectName>chanderyogaapp</ProjectName>
+    <IsRunnable>true</IsRunnable>
+    <FrameworkVersion>3.2.0</FrameworkVersion>
+    <AndroidPermissions>android.permission.CAMERA;android.permission.VIBRATE;android.permission.ACCESS_COARSE_LOCATION;android.permission.ACCESS_FINE_LOCATION;android.permission.ACCESS_LOCATION_EXTRA_COMMANDS;android.permission.READ_PHONE_STATE;android.permission.INTERNET;android.permission.RECEIVE_SMS;android.permission.RECORD_AUDIO;android.permission.MODIFY_AUDIO_SETTINGS;android.permission.READ_CONTACTS;android.permission.WRITE_CONTACTS;android.permission.WRITE_EXTERNAL_STORAGE;android.permission.ACCESS_NETWORK_STATE;android.permission.ACCOUNT_MANAGER;android.permission.GET_ACCOUNTS;android.permission.MANAGE_ACCOUNTS;android.permission.BROADCAST_STICKY</AndroidPermissions>
+    <CorePlugins>org.apache.cordova.battery-status;org.apache.cordova.camera;org.apache.cordova.console;org.apache.cordova.contacts;org.apache.cordova.device;org.apache.cordova.device-motion;org.apache.cordova.device-orientation;org.apache.cordova.dialogs;org.apache.cordova.file;org.apache.cordova.file-transfer;org.apache.cordova.geolocation;org.apache.cordova.globalization;org.apache.cordova.inappbrowser;org.apache.cordova.media;org.apache.cordova.media-capture;org.apache.cordova.network-information;org.apache.cordova.splashscreen;org.apache.cordova.statusbar;org.apache.cordova.vibration</CorePlugins>
+    <DeviceOrientations>Portrait;Landscape</DeviceOrientations>
+    <iOSStatusBarStyle>Default</iOSStatusBarStyle>
+    <AndroidHardwareAcceleration>false</AndroidHardwareAcceleration>
+    <BundleVersion>1.0</BundleVersion>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="App_Resources\iOS\icon.png" />
+    <Resource Include="App_Resources\iOS\icon@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-72.png" />
+    <Resource Include="App_Resources\iOS\icon-72@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small-50.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small-50@2x.png" />
+    <Resource Include="App_Resources\iOS\Default.png" />
+    <Resource Include="App_Resources\iOS\Default@2x.png" />
+    <Resource Include="App_Resources\iOS\Default-568h@2x.png" />
+    <Resource Include="App_Resources\iOS\Default-Portrait.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape.png" />
+    <Resource Include="App_Resources\iOS\Default-Portrait@2x.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-40.png" />
+    <Resource Include="App_Resources\iOS\icon-40@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-60.png" />
+    <Resource Include="App_Resources\iOS\icon-60@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-76.png" />
+    <Resource Include="App_Resources\iOS\icon-76@2x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="App_Resources\Android\drawable-hdpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-mdpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-nodpi\splashscreen.9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\index.css" />
+    <Content Include="css\jquery.mobile-1.3.2.css" />
+    <Content Include="css\jquery.mobile.structure-1.3.2.css" />
+    <Content Include="css\jquery.mobile.theme-1.3.2.css" />
+    <Content Include="fonts\Ananda Namaste.ttf" />
+    <Content Include="img\ajax-loader.gif" />
+    <Content Include="img\back.png" />
+    <Content Include="img\Background\5Elements_1280x768.png" />
+    <Content Include="img\Background\Background10_960x640.jpg" />
+    <Content Include="img\Background\Tab.png" />
+    <Content Include="img\ChanderDhall - Resized.jpg" />
+    <Content Include="img\ChanderYogaLogo.png" />
+    <Content Include="img\Facebook.png" />
+    <Content Include="img\gif\Ardha Chandrasana.gif" />
+    <Content Include="img\gif\Baddha Konasana.gif" />
+    <Content Include="img\gif\Bhujangasana.gif" />
+    <Content Include="img\gif\Dandasana.gif" />
+    <Content Include="img\gif\Dhanurasana.gif" />
+    <Content Include="img\gif\Halasana.gif" />
+    <Content Include="img\gif\Marjarasana.gif" />
+    <Content Include="img\gif\Padmasana.gif" />
+    <Content Include="img\gif\Paschimothanasana.gif" />
+    <Content Include="img\gif\Pavanmuktasana.gif" />
+    <Content Include="img\gif\Salabhasana.gif" />
+    <Content Include="img\gif\Setu Bhandasana.gif" />
+    <Content Include="img\gif\Suryanamaskar.gif" />
+    <Content Include="img\gif\Trikonasana.gif" />
+    <Content Include="img\gif\Urdhva Dhanurasana.gif" />
+    <Content Include="img\gif\Utkatasana.gif" />
+    <Content Include="img\gif\Uttanasana.gif" />
+    <Content Include="img\gif\Virabhadrasana 1.gif" />
+    <Content Include="img\gif\Virabhadrasana 2.gif" />
+    <Content Include="img\gif\Virabhadrasana 3.gif" />
+    <Content Include="img\icons-18-black.png" />
+    <Content Include="img\icons-18-white.png" />
+    <Content Include="img\icons-36-black.png" />
+    <Content Include="img\icons-36-white.png" />
+    <Content Include="img\Icons\5Elements\Air.png" />
+    <Content Include="img\Icons\5Elements\Fire.png" />
+    <Content Include="img\Icons\5Elements\Land.png" />
+    <Content Include="img\Icons\5Elements\PopupBackground\Air 800x480.png" />
+    <Content Include="img\Icons\5Elements\PopupBackground\Fire 800x480.png" />
+    <Content Include="img\Icons\5Elements\PopupBackground\Land 800x480.png" />
+    <Content Include="img\Icons\5Elements\PopupBackground\Soul 800x480.png" />
+    <Content Include="img\Icons\5Elements\PopupBackground\Water 800x480.png" />
+    <Content Include="img\Icons\5Elements\Soul.png" />
+    <Content Include="img\Icons\5Elements\Water.png" />
+    <Content Include="img\Icons\Asanas\Ardha Chandrasana.gif" />
+    <Content Include="img\Icons\Asanas\Ardha Chandrasana.jpg" />
+    <Content Include="img\Icons\Asanas\Baddha Konasana.jpg" />
+    <Content Include="img\Icons\Asanas\Bhujangasana.jpg" />
+    <Content Include="img\Icons\Asanas\Dandasana.jpg" />
+    <Content Include="img\Icons\Asanas\Dhanurasana.jpg" />
+    <Content Include="img\Icons\Asanas\Halasana.jpg" />
+    <Content Include="img\Icons\Asanas\Marjarasana.jpg" />
+    <Content Include="img\Icons\Asanas\Padmasana.jpg" />
+    <Content Include="img\Icons\Asanas\Paschimothanasana.jpg" />
+    <Content Include="img\Icons\Asanas\Pavanmuktasana.jpg" />
+    <Content Include="img\Icons\Asanas\Salabhasana.jpg" />
+    <Content Include="img\Icons\Asanas\Setu Bhandasana.jpg" />
+    <Content Include="img\Icons\Asanas\Suryanamaskar.jpg" />
+    <Content Include="img\Icons\Asanas\Trikonasana.jpg" />
+    <Content Include="img\Icons\Asanas\Urdhva Dhanurasana.jpg" />
+    <Content Include="img\Icons\Asanas\Utkatasana.jpg" />
+    <Content Include="img\Icons\Asanas\Uttanasana.jpg" />
+    <Content Include="img\Icons\Asanas\Virabhadrasana 1.jpg" />
+    <Content Include="img\Icons\Asanas\Virabhadrasana 2.jpg" />
+    <Content Include="img\Icons\Asanas\Virabhadrasana 3.jpg" />
+    <Content Include="img\Icons\Features\About Chander Yoga.png" />
+    <Content Include="img\Icons\Features\Asana.png" />
+    <Content Include="img\Icons\Features\Benefits of Yoga.png" />
+    <Content Include="img\Icons\Features\Feedback.png" />
+    <Content Include="img\Icons\Features\Five Elements of Life.png" />
+    <Content Include="img\Icons\Features\Origin of Yoga.png" />
+    <Content Include="img\Icons\Features\Pose of the Day.png" />
+    <Content Include="img\Icons\Features\Rules of Yoga.png" />
+    <Content Include="img\Icons\Features\The Right Trainer.png" />
+    <Content Include="img\Icons\Features\What is yoga.png" />
+    <Content Include="img\Icons\Features\Yoga Centres.png" />
+    <Content Include="img\Icons\Mudras\Apan Mudra.jpg" />
+    <Content Include="img\Icons\Mudras\Apan Vayu Mudra.jpg" />
+    <Content Include="img\Icons\Mudras\Bronchial Mudra.jpg" />
+    <Content Include="img\Icons\Mudras\Ganesha Mudra.jpg" />
+    <Content Include="img\Icons\Mudras\Hakini Mudra.jpg" />
+    <Content Include="img\Icons\Mudras\Kalesvara Mudra.jpg" />
+    <Content Include="img\Icons\Mudras\Prana Mudra.jpg" />
+    <Content Include="img\Icons\Mudras\Vayu Mudra.jpg" />
+    <Content Include="img\Icons\pranayama\Bhastrika.jpg" />
+    <Content Include="img\Icons\pranayama\Bhramari.jpg" />
+    <Content Include="img\Icons\pranayama\Nadi Shodhana.jpg" />
+    <Content Include="img\Icons\pranayama\Sheetali.jpg" />
+    <Content Include="img\Icons\pranayama\Sheetkari.jpg" />
+    <Content Include="img\Icons\pranayama\Surya Bhedana.jpg" />
+    <Content Include="img\Icons\pranayama\Ujjayi.jpg" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\TheRightTeacher.JPG" />
+    <Content Include="img\Twitter.png" />
+    <Content Include="img\TypesOfYoga.png" />
+    <Content Include="index.html" />
+    <Content Include="Json\Ardha Baddha Padmottanasana.json" />
+    <Content Include="js\index.js" />
+    <Content Include="js\iscroll.js" />
+    <Content Include="js\jquery-1.9.1.js" />
+    <Content Include="js\jquery-1.9.1.min.js" />
+    <Content Include="js\jquery.mobile-1.3.1.min.js" />
+    <Content Include="js\jquery.mobile-1.3.2.js" />
+    <Content Include="js\jquery.mobile.custom.js" />
+    <Content Include="js\jquery.mobile.iscroll.js" />
+    <Content Include="js\js\index.js" />
+    <Content Include="js\js\iscroll.js" />
+    <Content Include="js\js\jquery-1.9.1.js" />
+    <Content Include="js\js\jquery-1.9.1.min.js" />
+    <Content Include="js\js\jquery.mobile-1.3.1.min.js" />
+    <Content Include="js\js\jquery.mobile-1.3.2.js" />
+    <Content Include="js\js\jquery.mobile.custom.js" />
+    <Content Include="js\js\jquery.mobile.iscroll.js" />
+    <Content Include="js\styles\images\ajax-loader.gif" />
+    <Content Include="js\styles\images\icons-18-black.png" />
+    <Content Include="js\styles\images\icons-18-white.png" />
+    <Content Include="js\styles\images\icons-36-black.png" />
+    <Content Include="js\styles\images\icons-36-white.png" />
+    <Content Include="js\styles\jquery.mobile-1.3.1.min.css" />
+    <Content Include="scripts\location.js" />
+    <Content Include="scripts\login.js" />
+    <Content Include="styles\images\location.png" />
+    <Content Include="styles\images\location2x.png" />
+    <Content Include="styles\images\location_active.png" />
+    <Content Include="styles\images\location_active2x.png" />
+    <Content Include="styles\images\search.png" />
+    <Content Include="styles\images\search2x.png" />
+    <Content Include="styles\images\search_active.png" />
+    <Content Include="styles\images\search_active2x.png" />
+    <Content Include="styles\main.css" />
+    <Content Include="cordova.ios.js">
+      <Platform>iOS</Platform>
+      <TargetName>cordova.js</TargetName>
+    </Content>
+    <Content Include="cordova.android.js">
+      <Platform>Android</Platform>
+      <TargetName>cordova.js</TargetName>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Resources\" />
+    <Folder Include="App_Resources\Android\" />
+    <Folder Include="App_Resources\Android\drawable-hdpi\" />
+    <Folder Include="App_Resources\Android\drawable-ldpi\" />
+    <Folder Include="App_Resources\Android\drawable-mdpi\" />
+    <Folder Include="App_Resources\Android\drawable-nodpi\" />
+    <Folder Include="App_Resources\iOS\" />
+    <Folder Include="img\Asanas\" />
+    <Folder Include="img\Background\" />
+    <Folder Include="img\gif\" />
+    <Folder Include="img\Icons\" />
+    <Folder Include="img\Icons\5Elements\" />
+    <Folder Include="img\Icons\5Elements\PopupBackground\" />
+    <Folder Include="img\Icons\Asanas\" />
+    <Folder Include="img\Icons\Features\" />
+    <Folder Include="img\Icons\Mudras\" />
+    <Folder Include="img\Icons\pranayama\" />
+    <Folder Include="js\" />
+    <Folder Include="js\js\" />
+    <Folder Include="js\styles\" />
+    <Folder Include="js\styles\images\" />
+    <Folder Include="css\" />
+    <Folder Include="fonts\" />
+    <Folder Include="img\" />
+    <Folder Include="Json\" />
+    <Folder Include="Plugins\" />
+    <Folder Include="scripts\" />
+    <Folder Include="styles\" />
+    <Folder Include="styles\images\" />
+  </ItemGroup>
+  <Import Project="$(IceniumTargets)Build.targets" />
+  <!--
+	TODO: Uncomment this code if you need to customize the build process.
+	<Target Name="BeforeBuild">
+		<Message Text="TODO: Implement BeforeBuild" Importance="high" />
+	</Target>
+
+	<Target Name="AfterBuild">
+		<Message Text="TODO: Implement AfterBuild" Importance="high" />
+	</Target>
+	-->
+</Project>

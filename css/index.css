@@ -1,0 +1,616 @@
+@media only screen and (max-device-width: 480px) {
+    @font-face {
+        font-family: anandaNamaste;
+        src: url('../fonts/Ananda Namaste.ttf');
+    }
+
+    .my-page {
+        background: url('../img/Background/Background10_960x640.jpg') no-repeat center;
+        position: relative;
+        max-width: 100%;
+        background-size: 100% 100%;
+    }
+
+    .description {
+        display: block;
+        color: #ffffff;
+    }
+
+    .my-page .ui-li-desc {
+        color: #000000; /* Sets the color to the Description on the ListView */
+    }
+
+    .my-page .ui-listview .ui-li.ui-btn {
+        background: transparent;
+        border-color: #222;
+    }
+
+    .asanaName {
+        color: #000000;
+    }
+
+    .my-page .ui-header {
+        font-family: 'anandaNamaste', sans-serif;
+        font-size: 11pt;
+        color: #f0f8ff;
+        text-align: center;
+        font-weight: normal;
+    }
+
+    .my-page .ui-footer {
+        font-family: 'Calibri', sans-serif;
+        color: #f0f8ff;
+        text-align: center;
+        font-weight: normal;
+    }
+
+    @-webkit-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @-moz-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .objblink {
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+        -webkit-animation-direction: normal;
+        -webkit-animation-duration: 2s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-name: blink;
+        -webkit-animation-timing-function: ease-in-out;
+        -moz-animation-direction: normal;
+        -moz-animation-duration: 2s;
+        -moz-animation-iteration-count: infinite;
+        -moz-animation-name: blink;
+        -moz-animation-timing-function: ease-in-out;
+    }
+
+    @media screen and (min-width: 320px) {
+        .air {
+            position: absolute;
+            bottom: 38.5%;
+            left: 81.5%;
+            width: 15%;
+            z-index: 5;
+        }
+
+        .water {
+            position: absolute;
+            bottom: 27%;
+            left: 27.5%;
+            width: 14%;
+            z-index: 5;
+        }
+
+        .fire {
+            position: absolute;
+            bottom: 26.5%;
+            left: 57.5%;
+            width: 15%;
+            z-index: 5;
+        }
+
+        .land {
+            position: absolute;
+            bottom: 38.3%;
+            left: 5%;
+            width: 14%;
+            z-index: 5;
+        }
+        /*.soul {position:absolute;bottom:14%;left:7%;width: 85%;z-index: 0;}*/
+        .soul {
+            position: absolute;
+            bottom: 47%;
+            left: 40%;
+            width: 25%;
+            z-index: 0;
+        }
+
+        .popupAir {
+            background: url('../img/Icons/5Elements/PopupBackground/Air 800x480.png');
+            color: #ffffff;
+            background-size: 100% 100%;
+            overflow: auto;
+            font-weight: normal;
+            font-size: 10pt;
+        }
+
+        .popupWater {
+            background: url('../img/Icons/5Elements/PopupBackground/Water 800x480.png');
+            color: #ffffff;
+            background-size: 100% 100%;
+            overflow: auto;
+            font-weight: normal;
+            font-size: 10pt;
+        }
+
+        .popupFire {
+            background: url('../img/Icons/5Elements/PopupBackground/Fire 800x480.png');
+            color: #ffffff;
+            background-size: 100% 100%;
+            overflow: auto;
+            font-weight: normal;
+            font-size: 10pt;
+        }
+
+        .popupLand {
+            background: url('../img/Icons/5Elements/PopupBackground/Land 800x480.png');
+            color: #ffffff;
+            background-size: 100% 100%;
+            overflow: auto;
+            font-weight: normal;
+            font-size: 10pt;
+        }
+
+        .popupSoul {
+            background: url('../img/Icons/5Elements/PopupBackground/Soul 800x480.png');
+            color: #ffffff;
+            background-size: 100% 100%;
+            overflow: auto;
+            font-weight: normal;
+            font-size: 10pt;
+        }
+
+        .popupHeaderText {
+            font-family: 'anandaNamaste', Open Sans, sans-serif;
+            color: #ffffff;
+            font-size: 2em;
+            text-align: center;
+        }
+
+        .asanaName {
+            font-family: 'anandaNamaste', Open Sans, sans-serif;
+            color: #ffffff;
+            display: block;
+            font-weight: normal;
+            font-size: 1.3em;
+        }
+
+        .nomarigin {
+            margin-bottom: 10px !important;
+            border-bottom: solid thin #222;
+        }
+
+        .my-page .ui-header {
+            font-size: 3em;
+        }
+
+        .description {
+            display: none;
+        }
+
+        .ui-listview-filter {
+            margin: 15px -15px 15px !important;
+        }
+    }
+
+
+    @media screen and (min-width: 768px) {
+        .air {
+            position: absolute;
+            bottom: 35.5%;
+            left: 83.5%;
+            width: 16%;
+            z-index: 5;
+        }
+
+        .water {
+            position: absolute;
+            bottom: 22.5%;
+            left: 26%;
+            width: 15%;
+            z-index: 5;
+        }
+
+        .fire {
+            position: absolute;
+            bottom: 22%;
+            left: 58.5%;
+            width: 15%;
+            z-index: 5;
+        }
+
+        .land {
+            position: absolute;
+            bottom: 35.5%;
+            left: 2%;
+            width: 15%;
+            z-index: 5;
+        }
+        /*.soul {position:absolute;bottom:14%;left:7%;width: 85%;z-index: 0;}*/
+        .soul {
+            position: absolute;
+            bottom: 47%;
+            left: 40%;
+            width: 25%;
+            z-index: 0;
+        }
+
+        .popupAir {
+            background: url('../img/Icons/5Elements/PopupBackground/Air 800x480.png');
+            color: #ffffff;
+            background-size: 100% 100%;
+            width: 500px;
+            height: 600px;
+            overflow: auto;
+            font-weight: normal;
+            font-size: 14pt;
+        }
+
+        .popupWater {
+            background: url('../img/Icons/5Elements/PopupBackground/Water 800x480.png');
+            color: #ffffff;
+            background-size: 100% 100%;
+            width: 500px;
+            height: 600px;
+            overflow: auto;
+            font-weight: normal;
+            font-size: 14pt;
+        }
+
+        .popupFire {
+            background: url('../img/Icons/5Elements/PopupBackground/Fire 800x480.png');
+            color: #ffffff;
+            background-size: 100% 100%;
+            width: 500px;
+            height: 600px;
+            overflow: auto;
+            font-weight: normal;
+            font-size: 14pt;
+        }
+
+        .popupLand {
+            background: url('../img/Icons/5Elements/PopupBackground/Land 800x480.png');
+            color: #ffffff;
+            background-size: 100% 100%;
+            width: 500px;
+            height: 600px;
+            overflow: auto;
+            font-weight: normal;
+            font-size: 14pt;
+        }
+
+        .popupSoul {
+            background: url('../img/Icons/5Elements/PopupBackground/Soul 800x480.png');
+            color: #ffffff;
+            background-size: 100% 100%;
+            width: 500px;
+            height: 600px;
+            overflow: auto;
+            font-weight: normal;
+            font-size: 14pt;
+        }
+
+        .popupHeaderText {
+            font-family: 'anandaNamaste', Open Sans, sans-serif;
+            color: #ffffff;
+            font-size: 3em;
+            text-align: center;
+        }
+
+
+        img {
+            border: none;
+        }
+
+        .asanaName {
+            font-family: 'anandaNamaste', Open Sans, sans-serif;
+            font-size: 15pt;
+            color: #ffffff;
+            display: block;
+        }
+
+        .my-page .ui-header {
+            font-family: 'anandaNamaste', sans-serif;
+            font-size: 11pt;
+            color: #f0f8ff;
+            text-align: center;
+            font-weight: normal;
+        }
+
+        .description {
+            display: none;
+        }
+
+        .my-page .ui-listview .ui-li.ui-btn {
+            float: left;
+            width: 30%; /* 33.3333% incl. 2 x 1.2% margin */
+            height: 215px;
+            margin: 20px 1.2%;
+            border-width: 0; /* The 1px border would break the layout so we set it on .ui-btn-inner instead. */
+        }
+
+        /* If you don't want a border at all, just set "border: none;" here to negate the semi white top border */
+        .my-page .ui-listview .ui-li.ui-btn-inner {
+            border: inherit;
+            border-width: 1px;
+            margin: -1px;
+        }
+
+        .my-page .ui-listview .ui-btn-inner,
+        .my-page .ui-listview .ui-btn-text,
+        .my-page .ui-listview .ui-link-inherit,
+        .my-page .ui-listview .ui-li-thumb {
+            width: 100%;
+            height: 100%;
+            display: block;
+            overflow: hidden;
+        }
+
+        .my-page .ui-listview .ui-link-inherit {
+            padding: 0 !important;
+            position: relative;
+        }
+
+        /* Inherit the border-radius from the UL that has class .ui-corner-all in case of an inset listview. */
+        .my-page .ui-listview .ui-li,
+        .my-page .ui-listview .ui-btn-text,
+        .my-page .ui-listview .ui-link-inherit,
+        .my-page .ui-listview .ui-li-thumb {
+            -webkit-border-radius: inherit;
+            border-radius: inherit;
+        }
+
+        .my-page .ui-listview .ui-li-thumb {
+            height: auto; /* To keep aspect ratio. */
+            max-width: 100%;
+            max-height: none;
+            margin: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        /* Hide the icon */
+        .my-page .ui-listview .ui-icon {
+            display: none;
+        }
+
+        /* Make text wrap. */
+        .my-page .ui-listview .ui-li-heading,
+        .my-page .ui-listview .ui-li-desc {
+            white-space: normal;
+            overflow: visible;
+            position: absolute;
+            left: 0;
+            right: 0;
+        }
+
+        /* Text position */
+        .my-page .ui-listview .ui-li-heading {
+            margin: 0;
+            padding: 20px;
+            bottom: 50%;
+        }
+
+        .my-page .ui-listview .ui-li-desc {
+            margin: 0;
+            padding: 0 20px;
+            min-height: 50%;
+            bottom: 0;
+            line-height: 1.5;
+            color: #ffffff;
+        }
+
+        /* Semi transparent background and different position if there is a thumb */
+        .ui-listview .ui-li-has-thumb .ui-li-heading,
+        .ui-listview .ui-li-has-thumb .ui-li-desc {
+            background: #111; /* This CSS is for the text background shown on the icon */
+            background: rgba(0,0,0,.5); /* This CSS is for the text background shown on the icon. Give the BG transparency. */
+            -webkit-background-clip: padding;
+            background-clip: padding-box;
+            text-align: center;
+        }
+
+        .ui-listview .ui-li-has-thumb .ui-li-heading {
+            padding: 10px;
+            bottom: 0%; /* This is for the main text shown on the icon. for eg: "Asanas", "Mudras", etc... */
+        }
+
+        .ui-listview .ui-li-has-thumb .ui-li-desc {
+            padding: 0 10px;
+            min-height: 20%; /* This height is for the description text shown on the icon. */
+            -webkit-border-bottom-left-radius: inherit;
+            border-bottom-left-radius: inherit;
+            -webkit-border-bottom-right-radius: inherit;
+            border-bottom-right-radius: inherit;
+        }
+
+        /* If you want to add shadow, don't kill the focus style. */
+        .my-page .ui-listview .ui-btn:not(.ui-focus) {
+            -moz-box-shadow: 0px 0px 9px #111;
+            -webkit-box-shadow: 0px 0px 9px #111;
+            box-shadow: 0px 0px 9px #111;
+        }
+
+        /* Images mask the hover bg color so we give desktop users feedback by applying the focus style on hover as well. */
+        .my-page .ui-listview .ui-btn:hover {
+            -moz-box-shadow: 0px 0px 12px #387bbe;
+            -webkit-box-shadow: 0px 0px 12px #387bbe;
+            box-shadow: 0px 0px 12px #387bbe;
+        }
+
+        /* Animate focus and hover style, and resizing. */
+        .my-page .ui-listview .ui-btn {
+            -webkit-transition: all 500ms ease;
+            -moz-transition: all 500ms ease;
+            -o-transition: all 500ms ease;
+            -ms-transition: all 500ms ease;
+            transition: all 500ms ease;
+        }
+
+        .my-page .ui-listview {
+            max-width: 768px;
+            margin: 0 auto;
+        }
+
+        .ui-listview-filter {
+            margin: 15px -15px 15px !important;
+        }
+    }
+
+    /* Second breakpoint. 4 column layout. Tiles will be 250x250 pixels again at the breakpoint. */
+    /*@media all and (min-width: 1020px)*/
+    @media screen and (min-width: 1024px) {
+        .air {
+            position: absolute;
+            bottom: 35%;
+            left: 83.5%;
+            width: 16%;
+            z-index: 5;
+        }
+
+        .water {
+            position: absolute;
+            bottom: 21.5%;
+            left: 26%;
+            width: 15%;
+            z-index: 5;
+        }
+
+        .fire {
+            position: absolute;
+            bottom: 21.5%;
+            left: 58.5%;
+            width: 15%;
+            z-index: 5;
+        }
+
+        .land {
+            position: absolute;
+            bottom: 35%;
+            left: 1.6%;
+            width: 15%;
+            z-index: 5;
+        }
+        /*.soul {position:absolute;bottom:14%;left:7%;width: 85%;z-index: 0;}*/
+        .soul {
+            position: absolute;
+            bottom: 47%;
+            left: 40%;
+            width: 25%;
+            z-index: 0;
+        }
+
+        .popupAir {
+            background: url('../img/Icons/5Elements/PopupBackground/Air 800x480.png') no-repeat;
+            color: #ffffff;
+            background-size: 100% 100%;
+            width: 500px;
+            height: 600px;
+            overflow: auto;
+            font-weight: normal;
+            font-size: 14pt;
+        }
+
+        .popupWater {
+            background: url('../img/Icons/5Elements/PopupBackground/Water 800x480.png') no-repeat;
+            color: #ffffff;
+            background-size: 100% 100%;
+            width: 500px;
+            height: 600px;
+            overflow: auto;
+            font-weight: normal;
+            font-size: 14pt;
+        }
+
+        .popupFire {
+            background: url('../img/Icons/5Elements/PopupBackground/Fire 800x480.png') no-repeat center;
+            color: #ffffff;
+            background-size: 100% 100%;
+            width: 500px;
+            height: 600px;
+            overflow: auto;
+            font-weight: normal;
+            font-size: 14pt;
+        }
+
+        .popupLand {
+            background: url('../img/Icons/5Elements/PopupBackground/Land 800x480.png') no-repeat;
+            color: #ffffff;
+            background-size: 100% 100%;
+            width: 500px;
+            height: 600px;
+            overflow: auto;
+            font-weight: normal;
+            font-size: 14pt;
+        }
+
+        .popupSoul {
+            background: url('../img/Icons/5Elements/PopupBackground/Soul 800x480.png') no-repeat;
+            color: #ffffff;
+            background-size: 100% 100%;
+            width: 500px;
+            height: 600px;
+            overflow: auto;
+            font-weight: normal;
+            font-size: 14pt;
+        }
+
+        .popupHeaderText {
+            font-family: 'anandaNamaste', Open Sans, sans-serif;
+            color: #ffffff;
+            font-size: 3em;
+            text-align: center;
+        }
+
+        .asanaName {
+            font-family: 'anandaNamaste', Open Sans, sans-serif;
+            font-size: 15pt;
+            color: #ffffff;
+            display: block;
+        }
+
+        .description {
+            display: none;
+        }
+
+        .my-page .ui-header {
+            /*display: none;*/
+            font-size: 1.4em;
+        }
+
+        /* Set a max-width for the last breakpoint to prevent too much stretching on large screens.
+    By setting the max-width equal to the breakpoint width minus padding we keep square tiles. */
+        .my-page .ui-listview {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+            /* Because of the 1000px max-width the width will always be 230px (and margin left/right 10px),
+    but we stick to percentage values for demo purposes. */
+            .my-page .ui-listview .ui-li.ui-btn {
+                width: 23%;
+                height: 220px;
+                margin: 10px 1%;
+            }
+
+        .ui-listview-filter {
+            margin: 15px -15px 15px !important;
+        }
+    }
+}
